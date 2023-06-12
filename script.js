@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
   let datFam = fam.value;
 
   const data = {imya: datName, famil: datFam};
-  fetch('http://localhost:3000/requests', {
+  fetch('https://github.com/ihlasius/getPost/blob/main/db.json/requests', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
